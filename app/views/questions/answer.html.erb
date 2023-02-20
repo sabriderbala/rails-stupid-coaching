@@ -1,5 +1,6 @@
-<h1 class="text-start">Stupid Coaching</h1>
-<p class="text-start fs-4"><%= @question %> - You</p>
-<p class="text-start fs-6"><%= @answer %> - Coach</p>
+<div class="border"><h1 class="text-center">Stupid Coaching</h1></div>
+<div class="border text-center" style="width: 500px align-item: center"><p class="fs-4">" <%= @question %> "</p>
+<p>- You</p></div>
+<div class="border text-center" style="width: 500px align-item: center"><p class=" fs-6">" <mark><%= @answer %> </mark>" </p><p>- Coach</p></div>
 
-<div class="text-start"><%= link_to "ask a new question", ask_path %></div>
+<div class="text-center"><%= link_to "ask a new question", ask_path %></div>
